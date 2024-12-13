@@ -1,0 +1,210 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #1F2833;
+    color: #C5C6C7;
+}
+
+/* Navbar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background-color: #0B0C10;
+}
+
+.portfolio-title {
+    color: #66FCF1;
+    font-size: 1.5rem;
+}
+
+/* Nav Links */
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 1.5rem;
+}
+
+.nav-links li a {
+    text-decoration: none;
+    color: #C5C6C7;
+    font-size: 1rem;
+    font-family: 'Roboto Slab', serif; /* Apply Roboto Slab font */
+}
+
+.nav-links li a:hover {
+    color: #66FCF1;
+}
+
+/* Main Section */
+.main-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 90vh;
+}
+
+.profile {
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+}
+
+/* Profile Image Section */
+.profile-image {
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+    background-color: #C5C6C7;
+    background-image: url('images/josh.png'); /* Ensure this path is correct */
+    background-size: cover;
+    background-position: center;
+}
+
+/* Profile Info Section */
+.profile-info h2, .profile-info h3 {
+    color: #66FCF1;
+    margin: 0.5rem 0;
+    font-family: 'Roboto Slab', serif; /* Apply Roboto Slab font */
+}
+
+.profile-info p {
+    font-size: 1rem;
+    line-height: 1.5;
+    font-family: 'Roboto Slab', serif; /* Apply Roboto Slab font */
+}
+
+.projects-btn {
+    margin-top: 1rem;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    color: #0B0C10;
+    background-color: #66FCF1;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.projects-btn:hover {
+    background-color: #C5C6C7;
+    color: #0B0C10;
+}
+
+/* Projects, About Me, and Contact Sections */
+#projects, #about, #contact {
+    color: #66FCF1; /* Set the color to #66FCF1 */
+    font-family: 'Roboto Slab', serif; /* Apply Roboto Slab font */
+}
+/* Projects Section */
+.projects {
+    padding: 2rem;
+    text-align: center;
+  }
+  
+  .project-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 1.5rem;
+    margin-top: 2rem;
+  }
+  
+  /* .project-item {
+    background-color: #C5C6C7;
+    padding: 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  } */
+  
+  .project-item h3 {
+    color: #66FCF1;
+  }
+  
+  .project-item p {
+    color: #0B0C10;
+  }
+
+
+
+/* General Project Styles */
+.projects {
+    padding: 2rem;
+}
+
+.projects h2 {
+    color: #66FCF1;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.project-list {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.project-item {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    border-radius: 10px;
+    /* Removed background color and padding */
+}
+
+.project-item.reverse {
+    flex-direction: row-reverse;
+}
+
+.project-image {
+    width: 450px; /* Increased width */
+    height: 450px; /* Increased height */
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.project-details {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.project-description {
+    background-color: #0B0C10; /* Dark background for description only */
+    padding: 1.5rem; /* Increased padding for emphasis */
+    border-radius: 10px;
+    width: 100%;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); /* Added shadow for better visibility */
+}
+
+.project-description h3 {
+    margin: 0;
+    color: #66FCF1;
+    font-size: 1.5rem;
+}
+
+.project-description p {
+    margin-top: 0.5rem;
+    color: #FFFFFF; /* Changed to white */
+    line-height: 1.5;
+}
+
+/* View Button Styles */
+.view-button {
+    background-color: #66FCF1; /* Light teal color for the button */
+    color: #0B0C10; /* Dark text */
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 1rem; /* Adds space between the description and button */
+    transition: background-color 0.3s ease;
+}
+
+.view-button:hover {
+    background-color: #45a29e; /* Darker teal when hovered */
+}
+
